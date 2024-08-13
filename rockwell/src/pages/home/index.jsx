@@ -28,7 +28,7 @@ const HomePage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/postquery",
+        "rockwell/api/postquery",
         { query: input },
         {
           headers: { "Content-Type": "application/json" },

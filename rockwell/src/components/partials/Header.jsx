@@ -27,7 +27,7 @@ const Header = ({ setOpen, open }) => {
   const logout = async () => {
     // setUserInfo(null)
     // navigate('/login')
-    const response = await axios.get("http://localhost:8000/auth/logout", {
+    const response = await axios.get("rockwell/auth/logout", {
       withCredentials: true,
       credentials: "include",
     });
