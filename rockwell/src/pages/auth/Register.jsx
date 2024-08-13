@@ -23,10 +23,14 @@ const Register = () => {
       password: formData.get("password"),
       role: "customer",
     };
-    const response = await axios.post("rockwell/auth/signup", data, {
-      withCredentials: true,
-      credentials: "include",
-    });
+    const response = await axios.post(
+      "http://localhost:8000/auth/signup",
+      data,
+      {
+        withCredentials: true,
+        credentials: "include",
+      }
+    );
     console.log("Register Response:", response);
     if (response.status === 200) {
       // Redirect to home page after successful registration
