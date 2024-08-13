@@ -27,13 +27,10 @@ const Header = ({ setOpen, open }) => {
   const logout = async () => {
     // setUserInfo(null)
     // navigate('/login')
-    const response = await axios.get(
-      "https://rockwell-project.onrender.com/auth/logout",
-      {
-        withCredentials: true,
-        credentials: "include",
-      }
-    );
+    const response = await axios.get("http://localhost:8000/auth/logout", {
+      withCredentials: true,
+      credentials: "include",
+    });
     if (response.status === 200) {
       setUserInfo(null);
       window.location.reload();

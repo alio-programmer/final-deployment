@@ -28,7 +28,7 @@ const HomePage = () => {
 
     try {
       const response = await axios.post(
-        "https://rockwell-project.onrender.com/api/postquery",
+        "http://localhost:8000/api/postquery",
         { query: input },
         {
           headers: { "Content-Type": "application/json" },

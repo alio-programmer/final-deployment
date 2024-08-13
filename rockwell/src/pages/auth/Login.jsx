@@ -22,18 +22,12 @@ const LoginPage = () => {
       //http://localhost:8000/auth/login
       //https://rockwell-project.onrender.com
       response = await axios.post(
-        "https://rockwell-project.onrender.com/auth/login",
+        "http://localhost:8000/auth/login",
         {
           email: formData.get("email"),
           password: formData.get("password"),
         },
-        { withCredentials: true, credentials: true },
-        {
-          Headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Credentials": true,
-          },
-        }
+        { withCredentials: true, credentials: true }
       );
     } catch (error) {
       if (error.response) {
