@@ -1,3 +1,7 @@
+Winning Certificate:- <img width="1123" height="793" alt="image" src="https://github.com/user-attachments/assets/7f9fe7a3-409a-4ecb-9808-8062756ba20b" />
+
+---
+
 # ECHO – Multi Department Query Handling System
 
 ECHO is an AI-powered query management system designed to handle and route user queries across multiple departments. The system generates intelligent responses, categorizes queries based on department, and provides developers with relevant technical solutions using AI assistance.
@@ -79,6 +83,3 @@ The application follows a typical full-stack architecture:
 
 Developed as part of a project associated with Rockwell Automation by Me (Gaurav Singh Bisht), Om Deshmukh, Parimal Pawar, Tisha Mehta, Ganesh Pawar, Ashlesha Elkunchwar
 
----
-
-Winning Certificate:- <img width="1123" height="793" alt="image" src="https://github.com/user-attachments/assets/7f9fe7a3-409a-4ecb-9808-8062756ba20b" />
